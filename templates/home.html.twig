@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenue!{% endblock %}
+
+{% block body %}
+
+
+<body>
+    <div id="left-main">
+        <div class="brand">
+            Orgabat
+        </div>
+        <article>
+            Le projet ORGABAT est un projet de Serious Game à destination des apprentis CAP des Centres de Formation du Bâtiment. les objectifs de ce serious game sont multiples :
+
+            Accompagner par le numérique les apprentis pour qu’ils organisent bien leur poste de travail, améliorent leur efficacité et préservent leur santé durablement, en sécurité.
+
+            La finalité est de développer chez l’apprenti son analyse pour qu’il organise mieux son travail afin de lui permettre à la fois d’être plus performant pour son entreprise tout en restant en bonne santé.
+            <br>
+            <div class="features feature-desc">
+                <img class="features-img" src="{{ asset('assets/images/puzzle.png') }}" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, nemo!</p>
+            </div>
+            <div class="features feature-desc">
+                <img class="features-img" src="{{ asset('assets/images/wet-floor.png') }}" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, odit.</p>
+            </div>
+            <div class="features feature-desc">
+                <img class="features-img" src="{{ asset('assets/images/helmet.png') }}" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, minus.</p>
+            </div>
+        </article>
+
+        <footer id="footer" class="footer-area">
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright text-center">
+                                Batiment CFA Normandie - Copyright 2019
+                            </div> <!-- copyright -->
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- container -->
+            </div> <!-- copyright-area -->
+        </footer>
+    </div>
+    <div id="right-main">
+        <input type="button" id="start-btn" class="btn" value="Commencer" onclick="window.location = 'login'">
+    </div>
+
+</body>
+
+{% endblock body %}
