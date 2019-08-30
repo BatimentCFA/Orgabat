@@ -13,7 +13,7 @@ Symfony 4 pour la plateforme
 
 Javascript et la librairie Phaser.js pour les jeux
 
-Webpack pour la compression des jeux
+Webpack pour la compression des jeux 
 
 CSS Grid, Flex et media queries
 
@@ -27,7 +27,9 @@ Liste et choix des jeux en fonction de la catégorie
 
 Lancement des jeux dans une div dynamique
 
-Impression des résultats des jeux
+Réinitialiser les jeux par session d'utilisateur
+
+Impression des résultats des jeux, par utilisateur identifié
 
 
 ## Comment lancer l'application sous Symfony 4
@@ -41,11 +43,13 @@ Impression des résultats des jeux
 
 ## Context de développement
 
-L'application n'a pas été terminé, certains jeux ne fonctionnant pas, ils ont été retiré tout simplement.
+L'application n'a pas été terminé, certains jeux ne fonctionnant pas, ils ont tout simplement été retiré (voir plus bas).
 
 Les jeux sont compressés avec Webpack, il faut maintenant pouvoir les lancer lorsqu'on les choisi.
 
 Pensais à faire en sorte de pouvoir les sélectionner en fonction de la catégorie dans laquelle ils se trouvent.
+
+Un point très important, il faut que les jeux soient réinitialisés à chaque nouvelle session. Cette fonctionalitée n'a pas été développé.
 
 Il faut également renommer les jeux de cette façon:
 
@@ -81,9 +85,9 @@ Il faut également renommer les jeux de cette façon:
 
 - Remédier aux situations à risques
 
-- Jeux bloqués. A revoir ??
+- Jeux bloqués. A revoir ?? Retiré
 
-- Jeux bloqués. A revoir ??
+- Jeux bloqués. A revoir ?? Retiré
 
 #### Gestes et postures au travail
 

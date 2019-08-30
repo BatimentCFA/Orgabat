@@ -17,7 +17,7 @@ function getLog() {
     // Recharge la page après s'être identifier
     location.reload();
     //
-    window.location.href = 'https://127.0.0.1:8000/list'
+    window.location.href = 'https://127.0.0.1:8000/list' // A modifier lors du déploiement
 }
 
 if (sessionStorage.getItem('firstname') && sessionStorage.getItem('lastname')){
