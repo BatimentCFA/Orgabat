@@ -440,7 +440,7 @@ header {
 }
 
 article {
-    padding: 75px;
+    padding: 80px;
     margin-top: 50px;
     text-align: justify;
 }
@@ -470,6 +470,7 @@ article {
     margin: 25px;
 }
 .features-img {
+    height: 70px;
     float: left;
 }
 
