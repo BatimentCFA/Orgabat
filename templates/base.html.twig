@@ -22,12 +22,7 @@
         <ul>
             <a href="#" class="navbar-brand">Orgabat</a>
             <li>
-                {% if firstname == '' %}
-                    <a href="{{ path('login') }}">S'identifier</a>
-                {% else %}
-                    <a href="#">{{ firstname }} {{ lastname }}</a>
-                {% endif %}
-
+                <a href="{{ path('login') }}" id="loggedIn">S'identifier</a>
             </li>
             <li><a href="/">Accueil</a></li>
             <li><a href="#">Crédits</a></li>
@@ -37,7 +32,7 @@
     {% block body %}{% endblock %}
 
 
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/script.js') }}"></script>
     <script src="{{ asset('assets/js/gamelist.js') }}"></script>
     {% block javascripts %}
         <script>
